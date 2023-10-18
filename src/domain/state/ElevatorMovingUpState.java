@@ -30,4 +30,9 @@ public class ElevatorMovingUpState implements ElevatorState{
     public void move(ElevatorCar elevatorCar) {
         System.out.println("Elevator car already moving up");
     }
+
+    @Override
+    public String toString() {
+        return "Elevator is moving up";
+    }
 }

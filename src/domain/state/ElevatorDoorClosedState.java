@@ -15,4 +15,9 @@ public class ElevatorDoorClosedState implements ElevatorDoorState{
     public void close(ElevatorCar elevatorCar, DoorCloseCallback callback) {
         System.out.println("Elevator door is already closed.");
     }
+
+    @Override
+    public String toString() {
+        return "The door is closed.";
+    }
 }

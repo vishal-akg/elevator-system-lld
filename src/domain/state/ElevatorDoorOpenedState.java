@@ -26,4 +26,9 @@ public class ElevatorDoorOpenedState implements ElevatorDoorState{
     public void close(ElevatorCar elevatorCar, DoorCloseCallback callback) {
         elevatorCar.setDoorState(new ElevatorDoorClosingState(elevatorCar, callback));
     }
+
+    @Override
+    public String toString() {
+        return "door is opened.";
+    }
 }

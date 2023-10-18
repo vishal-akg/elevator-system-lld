@@ -17,4 +17,9 @@ public class ElevatorIdleState implements ElevatorState{
             }
         }
     }
+
+    @Override
+    public String toString() {
+        return "Elevator is idle, currently at floor";
+    }
 }

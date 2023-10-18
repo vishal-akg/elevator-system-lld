@@ -29,4 +29,9 @@ public class ElevatorDoorClosingState implements ElevatorDoorState{
     public void close(ElevatorCar elevatorCar, DoorCloseCallback callback) {
 
     }
+
+    @Override
+    public String toString() {
+        return "door is closing";
+    }
 }

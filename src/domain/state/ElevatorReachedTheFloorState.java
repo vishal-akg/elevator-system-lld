@@ -16,4 +16,9 @@ public class ElevatorReachedTheFloorState implements ElevatorState{
             }
         }
     }
+
+    @Override
+    public String toString() {
+        return "Elevator has reached the floor";
+    }
 }
